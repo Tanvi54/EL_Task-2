@@ -1,72 +1,46 @@
-# 📊 2023 Sales Performance Dashboard – Power BI
+# 📊 E-Commerce Insights Dashboard
 
-This project provides a **Power BI dashboard** for analyzing sales, profit, and customer insights using the **Superstore 2023 dataset**.  
-It is designed for **business managers** and **analysts** to track performance and identify key optimization opportunities.
+## 📝 Project Overview
 
----
-
-## 📂 **Dataset**
-The dataset includes the following columns:
-- 🆔 **Product_ID** – Unique identifier for each product
-- 📅 **Sale_Date** – Date of the sale (2023)
-- 👩‍💼 **Sales_Rep** – Sales representative (Alice, Bob, Charlie, David, Eve)
-- 🌍 **Region** – Sales region (North, South, East, West)
-- 💰 **Sales_Amount** – Total sales amount per transaction
-- 📦 **Quantity_Sold** – Units sold
-- 🛒 **Product_Category** – Product category (Electronics, Furniture, Clothing, Food)
-- 💵 **Unit_Cost** – Cost per unit
-- 💲 **Unit_Price** – Selling price per unit
-- 🧑‍🤝‍🧑 **Customer_Type** – New or Returning
-- 🎟️ **Discount** – Discount applied (0%–30%)
-- 💳 **Payment_Method** – Payment mode (Credit Card, Cash, Bank Transfer)
-- 🏬 **Sales_Channel** – Sales channel (Online or Retail)
-- 📊 **Region_and_Sales_Rep** – Combined Region & Sales Rep field
-- 📈 **Profit** – (Unit Price - Unit Cost) * Quantity - Discount
+This Power BI dashboard provides a detailed analysis of an e-commerce dataset, offering insights into customer behavior, sales performance, product trends, and geographical distribution of revenue. The dashboard is designed for business stakeholders to make data-driven decisions regarding marketing, inventory, and customer engagement.
 
 ---
 
-## 📑 **Pages & Insights**
+## 🧰 Tools Used
 
-### **Page 1: Executive Overview**
-- **KPI Cards:** Total Sales, Total Profit, Profit Margin %, Avg Discount %, Total Quantity Sold
-- **Monthly Sales & Profit Trend:** 📈 Line + Column chart with dual-axis
-- **Sales by Channel:** 🥧 Pie chart (Online vs Retail)
-- **New vs Returning Customers:** 🍩 Donut chart
-- **Sales by Region & Sales Rep:** 📊 Stacked bar chart
-- **Insights Box:** High-level business takeaways
-
-### **Page 2: Deep Dive**
-- **Sales & Profit by Category:** 📊 Clustered column chart
-- **Profit by Region & Category:** 🔥 Matrix with conditional heatmap
-- **Impact of Discount on Profit:** ⚡ Scatter plot with reference lines
-- **Insights Box:** Recommendations for improving profitability
+- ⚙️ **Power BI** – for interactive data visualization
+- 📂 **Excel (.xlsx)** – data source
+- 🧠 **Data Storytelling Principles** – for insight-driven reporting
 
 ---
 
-## 🌟 **Features**
-- **Dual-axis combo chart** for Sales & Profit comparison
-- **Conditional formatting** for matrix & charts
-- **Reference lines** for average profit & discount in scatter plot
-- **Insight boxes** summarizing key findings
-- **Interactive slicers**: Region, Sales Rep, Category, Channel, Date
+## 📌 Key Visuals & Insights
+
+| 🔍 Visual                         | 📈 Chart Type              | 📊 Key Insight |
+|----------------------------------|----------------------------|----------------|
+| Total Sales by Month             | Column Chart               | Seasonal sales trends and peak months |
+| Sales by Age Group & Gender      | Stacked Bar Chart          | Demographic distribution of revenue |
+| Sales by Channel                 | Donut Chart                | Performance of platforms (Myntra, Ajio, etc.) |
+| Sales by State                   | Stacked Bar Chart          | High-revenue states for regional marketing |
+| Product Category Performance     | Pie Chart                  | Top-performing product categories |
+| Order Status Breakdown           | Clustered Column Chart     | Order fulfillment status overview |
 
 ---
 
-## 🛠 **How to Use**
-1. Open the `.pbix` file in Power BI Desktop.
-2. Refresh data if needed (CSV provided in the `data/` folder).
-3. Use the slicers to filter by **Region**, **Sales Rep**, **Category**, and **Date**.
-4. Review **Insights Boxes** for actionable recommendations.
+## 💡 Business Insights
+
+✅ **March** is the top-performing month – ideal for targeted holiday campaigns.  
+✅ **Adults (25-44)** and **Women** are the largest customer segments.  
+✅ **Amazon** leads among sales channels, followed by **Myntra**.  
+✅ **Sets and Kurtas** are the top-selling product categories.  
+✅ **Maharashtra and Karnataka** show highest revenue potential.  
 
 ---
 
-## **Screenshots**
+
+## 📸 Dashboard Preview
 <p align="center">
-  <img src="Page-1.png" alt="EL_Task-2\Page-1.png" width="800"/>
-</p>
-
-<p align="center">
-  <img src="Page-2.png" alt="EL_Task-2\Page-2.png" width="800"/>
+  <img src="img-1.png" alt="EL_Task-3\Page-1.png" width="800"/>
 </p>
 
 ---
